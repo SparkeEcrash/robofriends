@@ -1,11 +1,13 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
-import ErrorBoundry from '../components/ErrorBoundary';
-import Header from '../components/Header';
-import './App.css';
+// import CardList from '../components/CardList';
+// import SearchBox from '../components/SearchBox';
+// import Scroll from '../components/Scroll';
+// import ErrorBoundry from '../components/ErrorBoundary';
+// import Header from '../components/Header';
+//import './App.css';
+
+import MainPage from '../components/MainPage';
 
 import {setSearchField, requestRobots} from '../actions';
 
@@ -85,6 +87,7 @@ class App extends React.Component {
 		console.log('render');
 
 		return (
+			/*
 			<div className="tc">
 				<Header />
 				<SearchBox searchChange={onSearchChange}/>
@@ -96,6 +99,8 @@ class App extends React.Component {
 					}
 				</Scroll>
 			</div>
+			*/
+			<MainPage {...this.props}></MainPage>
 		)
 	}
 }

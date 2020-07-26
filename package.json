@@ -1,8 +1,8 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
-	"private": true,
-	"homepage": "https://SparkeEcrash.github.io/robofriends",
+  "private": true,
+  "homepage": "https://SparkeEcrash.github.io/robofriends",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
@@ -15,11 +15,11 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "redux-mock-store": "^1.5.3"
   }
 }
