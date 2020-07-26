@@ -2,7 +2,7 @@ import './../setupTests';
 import {shallow, mount, render} from 'enzyme';
 import {shallowToJson } from 'enzyme-to-json';
 import React from 'react';
-import Card from './Card';
+import Card from '../components/Card';
 
 //shallow render the component
 /*

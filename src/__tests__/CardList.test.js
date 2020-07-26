@@ -1,8 +1,8 @@
-import './../setupTests';
+import '../setupTests';
 import {shallow, mount, render} from 'enzyme';
 import {shallowToJson } from 'enzyme-to-json';
 import React from 'react';
-import CardList from './CardList';
+import CardList from '../components/CardList';
 
 //shallow render the component
 /*

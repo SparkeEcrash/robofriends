@@ -1,7 +1,7 @@
 import {shallow} from 'enzyme';
 import {shallowToJson } from 'enzyme-to-json';
 import React from 'react';
-import MainPage from './MainPage';
+import MainPage from '../components/MainPage';
 
 /*TEST WITHOUT REFACTORING*/
 // test('expect to render MainPage component', () => {

@@ -1,8 +1,8 @@
-import './../setupTests';
+import '../setupTests';
 import {shallow, mount, render} from 'enzyme';
 import {shallowToJson } from 'enzyme-to-json';
 import React from 'react';
-import CounterButton from './CounterButton';
+import CounterButton from '../components/CounterButton';
 
 it('expect to render Card component', () => {
 	const mockColor = 'red';
