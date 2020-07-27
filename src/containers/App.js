@@ -79,11 +79,11 @@ class App extends React.Component {
 
 	render() {
 		// const {robots} = this.state;
-		const { searchfield, onSearchChange, robots, isPending } = this.props;
-		const filteredRobots = robots.filter(robots => {
-			console.log(robots)
-			return robots.name.toLowerCase().includes(searchfield.toLowerCase());
-		});
+		// const { searchfield, robots } = this.props;
+		// const filteredRobots = robots.filter(robots => {
+		// 	console.log(robots)
+		// 	return robots.name.toLowerCase().includes(searchfield.toLowerCase());
+		// });
 		console.log('render');
 
 		return (

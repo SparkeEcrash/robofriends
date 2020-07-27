@@ -21,7 +21,7 @@ class MainPage extends React.Component {
 
 	render() {
 		// const {robots} = this.state;
-		const { searchfield, onSearchChange, robots, isPending } = this.props;
+		const { onSearchChange, isPending } = this.props;
 		console.log('render');
 
 		return (
